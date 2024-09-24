@@ -1,0 +1,50 @@
+2024-04-10 03:21:07,941 - logging in using static token
+2024-04-10 03:21:09,024 - Shard ID None has connected to Gateway (Session ID: ae8b7360559cee497b200a02ef6e4491).
+2024-04-10 03:22:46,595 - logging in using static token
+2024-04-10 03:22:47,647 - Shard ID None has connected to Gateway (Session ID: 542021a44847bda92546962c5a12c716).
+2024-04-10 06:20:04,723 - Shard ID None has successfully RESUMED session 542021a44847bda92546962c5a12c716.
+2024-04-10 08:28:08,176 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "create_ticket" is not found
+2024-04-10 08:28:18,035 - logging in using static token
+2024-04-10 08:28:19,172 - Shard ID None has connected to Gateway (Session ID: a9d49b9580862d4ddbff98360552e97f).
+2024-04-10 08:29:20,961 - Ignoring exception in command closeticket
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1\Desktop\discord_bot_funcomm\main.py", line 1278, in closeticket
+    await ctx.send("Ticket closed successfully!")
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10003): Unknown Channel
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1\Desktop\discord_bot_funcomm\venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10003): Unknown Channel
+2024-04-10 11:50:06,314 - Shard ID None has successfully RESUMED session a9d49b9580862d4ddbff98360552e97f.
+2024-04-10 20:29:00,365 - logging in using static token
+2024-04-10 20:29:01,427 - Shard ID None has connected to Gateway (Session ID: 9a6d91575af21b886a5a4135058a6444).
+2024-04-10 20:34:39,560 - logging in using static token
+2024-04-10 20:34:40,624 - Shard ID None has connected to Gateway (Session ID: e38a1d23ca89f892e607c14af1b20942).
+2024-04-10 20:52:46,128 - Shard ID None has successfully RESUMED session e38a1d23ca89f892e607c14af1b20942.
+2024-04-10 21:49:41,243 - Shard ID None has successfully RESUMED session e38a1d23ca89f892e607c14af1b20942.
+2024-04-10 22:07:00,779 - logging in using static token
+2024-04-10 22:07:01,948 - Shard ID None has connected to Gateway (Session ID: 65e3f12d744a9dcc73660c1c47ffa141).
+2024-04-10 22:17:43,204 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "create_ticket" is not found
+2024-04-10 22:28:07,408 - Shard ID None has successfully RESUMED session 65e3f12d744a9dcc73660c1c47ffa141.
+2024-04-11 00:39:05,873 - Shard ID None has successfully RESUMED session 65e3f12d744a9dcc73660c1c47ffa141.
